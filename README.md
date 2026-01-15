@@ -76,18 +76,14 @@ git clone https://github.com/Manideep-Dasari/Personal-Portfolio.git
 ## Visual Documentation
 Screenshots demonstrating:
 - Desktop view
-  Chrome Broswer
-  <img width="1920" height="1200" alt="Screenshot 2026-01-15 165933" src="https://github.com/user-attachments/assets/ebb68a0d-4d61-4350-88ea-369674c8d22b" />
-  Mozilla Firefox
-  <img width="1920" height="1200" alt="Screenshot 2026-01-15 170003" src="https://github.com/user-attachments/assets/05a2cd0e-d8b3-4238-9a96-68148e607ec7" />
+- Chrome Broswer
+  -- <img width="1920" height="1200" alt="Screenshot 2026-01-15 165933" src="https://github.com/user-attachments/assets/ebb68a0d-4d61-4350-88ea-369674c8d22b" />
+  -- <img width="1920" height="1200" alt="Screenshot 2026-01-15 165919" src="https://github.com/user-attachments/assets/73e1cdca-d8ab-46bc-9f38-5ab4892067b3" />
+- Mozilla Firefox
+  -- <img width="1920" height="1200" alt="Screenshot 2026-01-15 170003" src="https://github.com/user-attachments/assets/05a2cd0e-d8b3-4238-9a96-68148e607ec7" />
+  -- <img width="1920" height="1200" alt="Screenshot 2026-01-15 170017" src="https://github.com/user-attachments/assets/eac7cb11-cf7f-46ca-b7df-b9b3c81b3b2e" />
 - Mobile view
-  <img width="1920" height="1200" alt="Screenshot 2026-01-15 170003" src="https://github.com/user-attachments/assets/86b50c9c-5e6e-4d73-86d0-daef2f782028" />
-- Dark mode view
-  Chrome Broswer
-  <img width="1920" height="1200" alt="Screenshot 2026-01-15 165919" src="https://github.com/user-attachments/assets/73e1cdca-d8ab-46bc-9f38-5ab4892067b3" />
-  Mozilla Firefox
-  <img width="1920" height="1200" alt="Screenshot 2026-01-15 170017" src="https://github.com/user-attachments/assets/eac7cb11-cf7f-46ca-b7df-b9b3c81b3b2e" />
-
+  -- <img width="1020" height="600" alt="Screenshot 2026-01-15 170003" src="https://github.com/user-attachments/assets/86b50c9c-5e6e-4d73-86d0-daef2f782028" />
 ---
 
 ## Conclusion
