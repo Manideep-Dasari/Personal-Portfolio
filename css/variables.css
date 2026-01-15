@@ -1,0 +1,19 @@
+:root {
+  --primary: #2563eb;
+
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --border: #e2e8f0;
+
+  --font: "Segoe UI", sans-serif;
+}
+
+body.dark {
+  --bg: #020617;
+  --surface: #020617;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --border: #1e293b;
+}

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  background: var(--surface);
+}
+
+.nav-list a {
+  color: var(--text);
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+}
+
+.hero-buttons {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  margin: 0.3rem;
+  display: inline-block;
+}
+
+.btn.outline {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+section {
+  padding: 3rem 2rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+} 
+
+.skills-grid > div:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.skills-grid > div {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card,
+.experience-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.project-card,
+.experience-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover,
+.experience-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+body.dark .project-card,
+body.dark .experience-card {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+form {
+  max-width: 400px;
+}
+
+input,
+textarea {
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 0.4rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+}
+
+.contact-info {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+footer {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  text-align: center;
+  padding: 1rem;
+}
+

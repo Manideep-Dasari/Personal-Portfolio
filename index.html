@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManiDeep Kumar | Java Full Stack Developer</title>
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">ManiDeep</div>
+
+        <nav class="nav" aria-label="Main Navigation">
+            <ul class="nav-list" id="navList">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button></li>
+                <li><button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        🌙
+                    </button></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="images/profile.png" alt="ManiDeep Kumar profile photo" />
+        <h1>ManiDeep Kumar</h1>
+        <p>Java Full Stack Developer</p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="resume.pdf" class="btn outline">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Results-driven Java Full Stack Developer skilled in Spring Boot,
+            Hibernate, RESTful APIs, and MySQL. Experienced in building scalable
+            web applications with clean, maintainable code and strong
+            problem-solving abilities.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+            <div>
+                <h3>Languages</h3>
+                <p>Java, JavaScript, SQL</p>
+            </div>
+
+            <div>
+                <h3>Frameworks</h3>
+                <p>Spring Boot, Hibernate, JPA, REST APIs, JDBC</p>
+            </div>
+
+            <div>
+                <h3>Web</h3>
+                <p>HTML5, CSS3, Bootstrap, JSON</p>
+            </div>
+
+            <div>
+                <h3>Databases</h3>
+                <p>MySQL, Oracle, Firebase</p>
+            </div>
+
+            <div>
+                <h3>Tools</h3>
+                <p>Git, GitHub, Postman, IntelliJ, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <h3>Easy Park – Smart Parking System</h3>
+                <p>
+                    IoT-enabled parking system using Java Servlets, Firebase, and ESP32.
+                    Designed REST APIs improving responsiveness by 25%.
+                    <br /><strong>Best Paper Award – NCCC 2024</strong>
+                </p>
+                <a href="https://github.com/Manideep-Dasari/EasyPark" target="_blank">GitHub</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Bank Application System</h3>
+                <p>
+                    Secure banking web application using Spring Boot, REST APIs,
+                    MySQL, and JPA with validation and exception handling.
+                </p>
+                <a href="https://github.com/Manideep-Dasari/Bank-Application-System" target="_blank">GitHub</a>
+            </article>
+
+            <article class="project-card">
+                <h3>SkyCast – Weather Dashboard</h3>
+                <p>
+                    Responsive weather dashboard using JavaScript Fetch API and
+                    OpenWeather API. Reduced latency by 30%.
+                </p>
+                <a href="https://github.com/Manideep-Dasari/SkyCast" target="_blank">GitHub</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="experience-card">
+            <h3>Java Developer Intern – Broskies Hub</h3>
+            <p>Sep 2025 – Nov 2025 | Remote</p>
+            <ul>
+                <li>Contributed to 3 backend modules and 2 feature enhancements</li>
+                <li>Developed 1,000+ lines of Java backend code</li>
+                <li>Improved efficiency by 20%</li>
+                <li>100% on-time project delivery</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-container">
+            <form class="contact-form">
+                <label>
+                    Name
+                    <input type="text" required />
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" required />
+                </label>
+
+                <label>
+                    Message
+                    <textarea rows="4" required></textarea>
+                </label>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> mdeep2856@gmail.com</p>
+                <p>
+                    <a href="https://linkedin.com/in/dasarimanideep" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/Manideep-Dasari" target="_blank">GitHub</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 ManiDeep Kumar</p>
+    </footer>
+
+    <script src="js/navigation.js"></script>
+
+</body>
+
+</html>
