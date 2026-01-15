@@ -83,7 +83,7 @@ Screenshots demonstrating:
   <img width="1920" height="1200" alt="Mozilla White Screenshot" src="https://github.com/user-attachments/assets/05a2cd0e-d8b3-4238-9a96-68148e607ec7" />
   <img width="1920" height="1200" alt="Mozilla Dark Screenshot" src="https://github.com/user-attachments/assets/eac7cb11-cf7f-46ca-b7df-b9b3c81b3b2e" />
 - Mobile view
-  <img width="375" alt="Mobile view screenshot" src="https://github.com/user-attachments/assets/86b50c9c-5e6e-4d73-86d0-daef2f782028" />
+  <img width="375" height="667" alt="Mobile view screenshot" src="https://github.com/user-attachments/assets/86b50c9c-5e6e-4d73-86d0-daef2f782028" />
 ---
 
 ## Conclusion
